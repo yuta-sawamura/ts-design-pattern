@@ -33,7 +33,7 @@ function run() {
     const server = new RealServer();
     const proxy = new Proxy(server);
 
-    proxy.handle("5");
+    proxy.handle("3");
 }
 
 run();
